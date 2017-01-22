@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title> MIRROR PROJECT HTML </title>
+	
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+
+<body>
+
+	<!-- TIME AND DATE -->
+	<div class="timeDate">
+		<div id="date"></div>
+		<div id="time"></div>
+		
+	</div>
+	<!-- TIME AND DATE END-->
+
+	
+	<div class="weather-wrapper ">
+		<div>
+			<img src="" class="weather-icon" alt="Weather Icon" />
+<!--			<br><span class="weather-description" class="capitalize"></span>-->
+			<br>
+			<span class="weather-temperature"></span> 
+			<br>
+			(<span class="weather-min-temperature"></span> - <span class="weather-max-temperature"></span>)	
+			<br><span class="weather-place"></span>
+		</div>	
+	</div>
+	
+
+	<!-- TFL LONDON UNDERGOUND LIVE UPDATE -->
+	<div class="tfl">
+		<div>
+			<script language="JavaScript" src="https://www.tfl.gov.uk/tfl/syndication/widgets/serviceboard/embeddable/serviceboard-iframe-stretchy.js">
+			</script>
+		</div>
+	</div>
+	<!-- TFL LONDON UNDERGOUND LIVE UPDATE END-->
+
+	
+	
+	
+	<!--Dependencies-->
+	<script src="js/jquery.1.9.1.min.js"></script>
+	<script src="js/openWeather.min.js"></script>
+	<script type="text/javascript" src="js/my_Script.js"></script>
+
+
+
+
+</body>
+
+</html>
